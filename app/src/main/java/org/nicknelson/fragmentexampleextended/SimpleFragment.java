@@ -20,6 +20,14 @@ public class SimpleFragment extends Fragment {
         // Required empty public constructor
     }
 
+    /*
+    The best practice for instantiating the Fragment in the Activity is to provide a newinstance()
+    factory method in the Fragment. Note that it is a static method.
+     */
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

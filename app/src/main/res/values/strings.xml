@@ -8,4 +8,6 @@
     <string name="yes_message">ARTICLE: Like</string>
     <string name="no_message">ARTICLE: Thanks</string>
     <string name="question_song">LIKE THE SONG?</string>
+    <string name="open_text">OPEN FRAGMENT</string>
+    <string name="close_text">CLOSE FRAGMENT</string>
 </resources>
